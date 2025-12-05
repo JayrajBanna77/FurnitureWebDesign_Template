@@ -1,0 +1,398 @@
+/* Navbar Start */
+
+.navbar {
+    background-image: url(/Images/hero-bg.jpg);
+}
+
+#navbarNavDropdown {
+    justify-content: end;
+}
+
+
+
+/* Navbar End */
+
+/* Header Box Start */
+
+
+.hero-header {
+    background: url(/Images/hero-bg.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.homebetter p {
+    font-size: 80px;
+}
+
+.winning {
+    border: 4px solid white;
+    padding: 4px;
+    text-align: center;
+}
+
+
+
+
+/* Header Box End */
+
+
+
+/* Historybox Start */
+
+
+.historycontent h1 span {
+    color: #0d6b68;
+    background-color: #e6f0ef;
+    padding: 2px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.content h1 span {
+    color: #0B6666;
+    border-bottom: 4px solid #0B6666;
+}
+#imagecontent{
+    background-color: #0d6b68;
+    color: white;
+}
+
+.content p {
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.checkicons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.checkicons i {
+    color: #0B6666;
+    margin-right: 8px;
+}
+
+.btn-row {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.read-btn {
+    background: #0B6666;
+    color: white;
+    padding: 10px 28px;
+}
+
+.iconssocial a {
+    font-size: 22px;
+    margin-right: 12px;
+    color: #0B6666;
+}
+
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 36px;
+    }
+
+    .checkicons {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Historybox End */
+
+
+
+
+/* Why People CHOOSE US Start*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.feature h2 span {
+    background-color: #e6f0ef;
+    color: #0d6b68;
+    padding: 2px;
+}
+
+.experiencebox {
+    max-height: 300px;
+    max-width: 300px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#featureicon {
+    height: 30%;
+    width: 30%;
+    padding: 20px;
+}
+
+
+/* Why People CHOOSE US End*/
+
+
+/* Our Projects Start */
+
+.latestproject h2 b {
+    background-color: white;
+    color: #0d6b68;
+    padding: 1px;
+}
+
+.latestproject h2 {
+    color: white;
+}
+
+.latestproject {
+    padding: 90px;
+    height: 400px;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #0d6b68;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projectimage {
+    width: 30%;
+    height: 200px;
+    border: 1px solid transparent;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.projectimage img {
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.projectimage img:hover {
+    transform: scale(1.1);
+}
+
+.imagetext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+}
+
+.imagetext span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* Our Projects End  */
+
+
+/* Service Start */
+
+.servicecontent {
+    margin: 50px;
+}
+
+.service {
+    height: 550px;
+    width: 100%;
+    border: 1px solid transparent;
+}
+
+.servicebox {
+    width: 50%;
+    height: 50%;
+    border: 1px solid transparent;
+    margin: 0;
+    padding: 30px;
+    background-color: #e6f0ef;
+}
+
+#serviceimage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:528px) {
+    #sb {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column !important;
+    }
+}
+
+.servicecontent b {
+    background-color: #e6f0ef;
+    color: #0d6b68;
+    padding: 2px;
+}
+
+.callbox {
+    border: 1px solid transparent;
+    background-color: #e6f0ef;
+
+}
+
+.calllogo {
+    padding: 2px;
+    background-color: #0d6b68;
+}
+
+.callcontent {
+    padding: 2px;
+}
+
+/* .service :hover .servicebox{
+    background-color: #0d6b68;
+} */
+
+
+/* Servive End */
+
+/*Teams Start*/
+
+.teamstart {
+    background-color: #e6f0ef;
+    padding: 20px;
+}
+
+.teams img {
+    position: relative;
+}
+
+.name,
+icon {
+    position: absolute;
+    bottom: 20px;
+    padding-left: 15px;
+}
+
+.teams {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.teams img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.teams:hover img {
+    transform: scale(1.2);
+}
+
+/*Teams End*/
+
+/*Testimonial Start*/
+
+.testimonialimage {
+    margin-left: 350px;
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+}
+
+/*Testimonial End*/
+
+
+/*Newsletter Start*/
+
+.newsletter {
+    background-image: url(/Images/hero-bg.jpg);
+    background-size: cover;
+}
+
+.entermail {
+    margin: 90px;
+}
+
+.entermail h3 b {
+    background-color: white;
+    color: #0d6b68;
+    padding: 3px;
+}
+
+.entermail input {
+    margin-top: 15px;
+    position: relative;
+    padding: 10px;
+    width: 200px;
+}
+
+.entermail img {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+
+/*Newsletter End*/
+
+/*footer CSS Start*/
+
+.footerbox {
+    background-color: #03201f;
+    color: #81908f;
+}
+
+.subclass h2,
+h4 {
+    color: white;
+}
+
+#icon {
+    border: 1px solid #0d6b68;
+}
+
+#icon :hover {
+    color: white;
+}
+
+.footerbox a {
+    color: #81908f;
+    text-decoration: none;
+}
+
+.links ul li {
+    border-left: 1px solid white;
+}
+
+/*Footer CSS End*/
